@@ -1,7 +1,7 @@
 {
-	"name": "npm-base-package",
+	"name": "lesca-react-landscape",
 	"version": "0.0.0",
-	"description": "npm-base-package",
+	"description": "simple loading page for react",
 	"main": "lib/index.js",
 	"scripts": {
 		"start": "webpack-dev-server --mode development",
@@ -47,5 +47,8 @@
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:jameshsu1125/npm-base-package.git"
+	},
+	"dependencies": {
+		"lesca-sensor-oc": "^1.0.1"
 	}
 }
