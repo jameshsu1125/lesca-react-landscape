@@ -3,21 +3,36 @@
 # Installation
 
 ```sh
-$ npm install <package> --save
+$ npm install lesca-react-landscape --save
 ```
 
 # Usage
 
 ```javascript
-import foo from 'foo';
+import Landscape from 'lesca-react-landscape';
+
+
+render(){
+    return (
+        <div className='container'>
+            <h1> your-html-dom <h1>
+            <Landscape dw='750' />
+        </div>
+    )
+}
 ```
 
-# Methods
+# Props
 
-| method | options | description | default |
-| :----- | :-----: | :---------: | ------: |
+| props |  type  |      description       | default |
+| :---- | :----: | :--------------------: | ------: |
+| dw    | string | viewport device-width, |   '750' |
 
-# Properties
+# Themes
 
-| Properties | type | description | default |
-| :--------- | :--: | :---------: | ------: |
+![image](http://linebot.lesca.net/data/git/1.png)
+
+| class name |      style       |   description    |                  default |
+| :--------- | :--------------: | :--------------: | -----------------------: |
+| .lesca-oc  | background-image |   display icon   | url('data:image/png...') |
+|            | background-color | background color |         rgba(0, 0, 0, 1) |

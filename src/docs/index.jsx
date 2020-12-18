@@ -1,13 +1,14 @@
 import React from 'react';
 import { render } from 'react-dom';
-import MyClass from './../lib/index';
+import Landscape from './../lib/index';
 
 import './styles.css';
 
 function Demo() {
 	return (
 		<>
-			<MyClass />
+			<h1>simple mobile landscape page</h1>
+			<Landscape />
 		</>
 	);
 }

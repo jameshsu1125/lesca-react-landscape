@@ -1,7 +1,7 @@
 {
 	"name": "lesca-react-landscape",
-	"version": "0.0.0",
-	"description": "simple loading page for react",
+	"version": "1.0.0",
+	"description": "simple mobile landscape page",
 	"main": "lib/index.js",
 	"scripts": {
 		"start": "webpack-dev-server --mode development",
