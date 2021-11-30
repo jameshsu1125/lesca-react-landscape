@@ -16,7 +16,7 @@ render(){
     return (
         <div className='container'>
             <h1> your-html-dom <h1>
-            <Landscape dw='750' />
+            <Landscape style={{ backgroundImage:'url(...)', backgroundColor:'rgba(0,0,0,.8)'}} deviceWidth={false}/>
         </div>
     )
 }
@@ -24,15 +24,11 @@ render(){
 
 # Props
 
-| props |  type  |      description       | default |
-| :---- | :----: | :--------------------: | ------: |
-| dw    | string | viewport device-width, |   '750' |
+| props       |  type  |      description       | default |
+| :---------- | :----: | :--------------------: | ------: |
+| deviceWidth | number | viewport device-width, |     750 |
+| style       | object |     css-inline-js      |         |
 
-# Themes
+# Default Themes
 
 ![image](http://linebot.lesca.net/data/git/1.png)
-
-| class name |      style       |   description    |                  default |
-| :--------- | :--------------: | :--------------: | -----------------------: |
-| .lesca-oc  | background-image |   display icon   | url('data:image/png...') |
-|            | background-color | background color |         rgba(0, 0, 0, 1) |
