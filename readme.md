@@ -17,10 +17,10 @@ export default LandscapePage;
 
 # Props
 
-| props       |  type  |      description       |                          default |
-| :---------- | :----: | :--------------------: | -------------------------------: |
-| deviceWidth | number | viewport device-width, |                            false |
-| style       | object |     css-inline-js      | [default style](##default-style) |
+| props       |  type  |      description       |                         default |
+| :---------- | :----: | :--------------------: | ------------------------------: |
+| deviceWidth | number | viewport device-width, |                           false |
+| style       | object |     css-inline-js      | [default style](#default-style) |
 
 ## Default style
 
