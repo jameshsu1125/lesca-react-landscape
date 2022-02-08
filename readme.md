@@ -11,22 +11,15 @@ $ npm install lesca-react-landscape --save
 ```javascript
 import Landscape from 'lesca-react-landscape';
 
-
-render(){
-    return (
-        <div className='container'>
-            <h1> your-html-dom <h1>
-            <Landscape style={{ backgroundImage:'url(...)', backgroundColor:'rgba(0,0,0,.8)'}} deviceWidth={false}/>
-        </div>
-    )
-}
+const LandscapePage = () => <Landscape style={{ backgroundColor: '#ff6600' }} />;
+export default LandscapePage;
 ```
 
 # Props
 
 | props       |  type  |      description       | default |
 | :---------- | :----: | :--------------------: | ------: |
-| deviceWidth | number | viewport device-width, |     750 |
+| deviceWidth | number | viewport device-width, |   false |
 | style       | object |     css-inline-js      |         |
 
 # Default Themes
