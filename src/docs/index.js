@@ -4,7 +4,7 @@ import Demo from './demo';
 import Qrcode from 'lesca-react-qrcode';
 import './styles.less';
 
-const homepage = '#';
+const homepage = 'https://github.com/jameshsu1125/lesca-react-landscape';
 const name = 'lesca-react-landscape';
 const description = 'simple exsample';
 const code = `import Landscape from 'lesca-react-landscape';
