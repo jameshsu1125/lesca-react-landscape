@@ -17,10 +17,27 @@ export default LandscapePage;
 
 # Props
 
-| props       |  type  |      description       | default |
-| :---------- | :----: | :--------------------: | ------: |
-| deviceWidth | number | viewport device-width, |   false |
-| style       | object |     css-inline-js      |         |
+| props       |  type  |      description       |                          default |
+| :---------- | :----: | :--------------------: | -------------------------------: |
+| deviceWidth | number | viewport device-width, |                            false |
+| style       | object |     css-inline-js      | [default style](##default-style) |
+
+## Default style
+
+```javascript
+const defaultStyle = {
+	position: 'fixed',
+	width: '100%',
+	height: '100%',
+	top: '0px',
+	left: '0px',
+	backgroundRepeat: 'no-repeat',
+	backgroundPosition: 'center',
+	backgroundColor: 'rgba(0, 0, 0, 1)',
+	backgroundImage: `url(${defaultIcon})`,
+	backgroundSize: '10vw',
+};
+```
 
 # Default Themes
 
