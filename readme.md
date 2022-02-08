@@ -6,6 +6,10 @@
 $ npm install lesca-react-landscape --save
 ```
 
+# Demo
+
+[Live Demo](https://jameshsu1125.github.io/lesca-react-landscape/)
+
 # Usage
 
 ```javascript
