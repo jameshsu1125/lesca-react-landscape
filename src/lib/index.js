@@ -30,7 +30,7 @@ const Landscape = (props) => {
         p.content = `width=${dw}, minimum-scale=${s}, maximum-scale=${s}, initial-scale=${s}`;
       }
 
-      if (e === 0 || !e) setState(false);
+      if (e === 'portrait') setState(false);
       else setState(true);
     });
   }, []);
