@@ -71,5 +71,4 @@ const defaultStyle = {
 
 ### Features
 
-- TypeScript
 - maintain if necessary
