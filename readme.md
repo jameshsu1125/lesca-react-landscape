@@ -11,7 +11,7 @@
 
 a landscape screen of react component.
 
-look like this.![image](http://linebot.lesca.net/data/git/1.png)
+look like this.![image](http://archive.lesca.net/screencapture-jameshsu1125-github-io-lesca-react-landscape-2022-08-24-12_39_17.png)
 
 #### [Live Demo](https://jameshsu1125.github.io/lesca-react-landscape/)
 
