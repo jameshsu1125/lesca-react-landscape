@@ -1,13 +1,3 @@
-import { CSSProperties } from 'react';
-declare type LandscapeProps = {
-    style?: CSSProperties;
-    deviceWidth?: number | boolean;
-};
-declare const Landscape: {
-    (props: LandscapeProps): JSX.Element;
-    defaultProps: {
-        style: CSSProperties;
-        deviceWidth: boolean;
-    };
-};
+import { ProviderProps } from './type';
+declare const Landscape: ({ children, style }: ProviderProps) => import("react/jsx-runtime").JSX.Element;
 export default Landscape;
