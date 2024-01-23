@@ -9,7 +9,7 @@ const Demo = () => {
       <h2>Demo</h2>
       <h5>test on mobile</h5>
       <Qrcode content={window.location.href} size='300' />
-      <Landscape>asd</Landscape>
+      <Landscape></Landscape>
       <pre>
         <code>try Landscape your mobile</code>
       </pre>
