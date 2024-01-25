@@ -22,13 +22,14 @@ const DefaultChildren = ({ style }: { style?: CSSProperties }) => {
   );
 };
 
-const Landscape = ({ children, style }: ProviderProps) => {
+const Landscape = ({ children, style, onChange }: ProviderProps) => {
   const [state, setState] = useState(false);
 
   useEffect(() => {
     OrientationChange.addEventListener((e) => {
       if (e === 'portrait') setState(false);
       else setState(true);
+      onChange?.(e);
     });
   }, []);
 

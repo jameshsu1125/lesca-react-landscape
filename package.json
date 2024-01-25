@@ -1,6 +1,6 @@
 {
   "name": "lesca-react-landscape",
-  "version": "3.0.5",
+  "version": "3.0.7",
   "description": "a landscape screen of react component.",
   "main": "lib/index.js",
   "scripts": {
@@ -57,6 +57,6 @@
   },
   "author": "jamehsu1125 <jameshsu1125@gmail.com>",
   "dependencies": {
-    "lesca-sensor-orientation-change": "^1.2.2"
+    "lesca-sensor-orientation-change": "^1.2.3"
   }
 }
