@@ -1,6 +1,6 @@
 {
   "name": "lesca-react-landscape",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "a landscape screen of react component.",
   "main": "lib/index.js",
   "scripts": {
@@ -51,12 +51,12 @@
     "style-loader": "^3.3.4",
     "ts-loader": "^9.5.1",
     "typescript": "^5.3.3",
-    "webpack": "^5.89.0",
+    "webpack": "^5.90.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
   },
   "author": "jamehsu1125 <jameshsu1125@gmail.com>",
   "dependencies": {
-    "lesca-sensor-orientation-change": "^1.2.1"
+    "lesca-sensor-orientation-change": "^1.2.2"
   }
 }
